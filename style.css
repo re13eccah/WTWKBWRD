@@ -18,10 +18,3 @@ body {
     align-items: center;
 }
 
-.carousel img {
-    width: 400px;  /* Force all images to be the same width */
-    height: 300px; /* Force all images to be the same height */
-    object-fit: cover; /* Ensures the image covers the container */
-    border-radius: 10px;
-}
-
