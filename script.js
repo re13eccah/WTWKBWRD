@@ -16,6 +16,25 @@ carouselImage.style.width = '400px';
 carouselImage.style.height = '300px';
 carouselImage.style.objectFit = 'cover'; // Ensures the image covers the container
 
+// Function to center the carousel vertically and horizontally
+function centerCarousel() {
+    const windowWidth = window.innerWidth;
+    const windowHeight = window.innerHeight;
+
+    const carouselWidth = carouselContainer.offsetWidth;
+    const carouselHeight = carouselContainer.offsetHeight;
+
+    const leftPosition = (windowWidth - carouselWidth) / 2;
+    const topPosition = (windowHeight - carouselHeight) / 2;
+
+    carouselContainer.style.left = `${leftPosition}px`;
+    carouselContainer.style.top = `${topPosition}px`;
+}
+
+// Call centerCarousel initially and on window resize
+centerCarousel();
+window.addEventListener('resize', centerCarousel);
+
 let currentIndex = 0;
 
 function changeImage() {
@@ -26,4 +45,4 @@ function changeImage() {
 // Initial setup to show the first image
 carouselImage.src = images[0];
 
-setInterval(changeImage, 500); // Change image every 3 seconds
+setInterval(changeImage, 500); // Change image every 0.5 seconds (500 milliseconds)
