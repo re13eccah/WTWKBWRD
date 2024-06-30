@@ -6,7 +6,7 @@ body {
     justify-content: center;
     align-items: center;
     overflow: hidden; /* Prevents scrolling */
-    background-color: #f0f0f000; /* Background color for the body */
+    background-color: #f0f0f0; /* Background color for the body */
 }
 
 .background {
@@ -17,7 +17,7 @@ body {
     height: 100%;
     background-image: url('stars.gif'); /* Replace with your GIF file */
     background-size: cover;
-    
+    z-index: -1; /* Ensure the background is behind other content */
 }
 
 .carousel {
@@ -38,4 +38,3 @@ body {
     object-fit: cover; /* Ensures the image covers the container */
     border-radius: 10px;
 }
-
