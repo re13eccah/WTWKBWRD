@@ -17,7 +17,7 @@ body {
     height: 100%;
     background-image: url('stars.gif'); /* Replace with your GIF file */
     background-size: cover;
-    z-index: -1; /* Ensure the background is behind other content */
+    
 }
 
 .carousel {
