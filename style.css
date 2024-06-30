@@ -23,7 +23,7 @@ body {
     width: 400px;  /* Fixed width for the bounding box */
     height: 300px; /* Fixed height for the bounding box */
     overflow: hidden;
-    background-color: rgba(255, 255, 255, 0.5); /* Optional: Adds a semi-transparent overlay */
+    background-color: rgba(255, 255, 255, 0); /* Optional: Adds a semi-transparent overlay */
     border-radius: 10px;
     display: flex;
     justify-content: center;
