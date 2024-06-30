@@ -18,14 +18,6 @@ body {
     align-items: center;
 }
 
-.image-container {
-    width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
 .carousel img {
     width: 400px;  /* Force all images to be the same width */
     height: 300px; /* Force all images to be the same height */
