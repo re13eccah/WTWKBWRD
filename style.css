@@ -6,7 +6,7 @@ body {
     justify-content: center;
     align-items: center;
     overflow: hidden; /* Prevents scrolling */
-    background-color: #f0f0f0; /* Background color for the body */
+    background-color: #f0f0f000; /* Background color for the body */
 }
 
 .background {
