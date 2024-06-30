@@ -5,7 +5,14 @@ const images = [
     'm.png',
     'h.png',
     'v.png',
-    'f.png'
+    'f.png',
+    'a.png',
+    'c.png',
+    'd.png',
+    'e.png',
+    'p.png',
+    'r.png',
+    'x.png'
 ];
 
 const carouselImage = document.getElementById('carousel-image');
