@@ -6,6 +6,7 @@ body {
     justify-content: center;
     align-items: center;
     overflow: hidden; /* Prevents scrolling */
+    background-color: #f0f0f0; /* Background color for the body */
 }
 
 .background {
@@ -23,7 +24,7 @@ body {
     width: 400px;  /* Fixed width for the bounding box */
     height: 300px; /* Fixed height for the bounding box */
     overflow: hidden;
-    background-color: rgba(255, 255, 255, 0); /* Optional: Adds a semi-transparent overlay */
+    background-color: transparent; /* Make the carousel background transparent */
     border-radius: 10px;
     display: flex;
     justify-content: center;
@@ -37,3 +38,4 @@ body {
     object-fit: cover; /* Ensures the image covers the container */
     border-radius: 10px;
 }
+
