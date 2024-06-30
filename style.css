@@ -33,4 +33,9 @@ body {
     height: 100%;
     object-fit: cover; /* Ensures the image covers the container while maintaining aspect ratio */
     border-radius: 10px;
+    display: none; /* Hide all images by default */
+}
+
+.carousel img.active {
+    display: block; /* Show only the active image */
 }
