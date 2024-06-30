@@ -12,4 +12,4 @@ function changeImage() {
     carouselImage.src = images[currentIndex];
 }
 
-setInterval(changeImage, 3000); // Change image every 3 seconds
+setInterval(changeImage, 1000); // Change image every 3 seconds
