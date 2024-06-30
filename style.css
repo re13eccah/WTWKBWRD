@@ -6,19 +6,3 @@ body {
     justify-content: center;
     align-items: center;
 }
-
-.carousel {
-    width: 400px;  /* Fixed width for the bounding box */
-    height: 300px; /* Fixed height for the bounding box */
-    overflow: hidden;
-    background-color: #333;
-    border-radius: 10px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-
